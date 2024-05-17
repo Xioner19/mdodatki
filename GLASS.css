@@ -338,7 +338,15 @@ button.bal_pay_decrease.active::before {
     background-image: url(https://i.imgur.com/A1pSoYO.png)
 }
 
+#bchat {
+    background-image: url(https://i.imgur.com/ju65uYG.png);
+    top: 518px
+}
 
+#bottxt {
+    top: 8px;
+    font: 12px Arial
+}
 
 #botloc {
     font: 12px Arial
@@ -369,6 +377,153 @@ UL.boxhover LI:not(.disabled):hover {
     box-shadow: inset 0px 0px 0px 2px #e3e3e3
 }
 
+/* CHAT */
+
+#inpchat {
+    font: 12px Arial;
+    color: #e3e3e3;
+    background-image: url(https://i.imgur.com/A1pSoYO.png);
+    margin-top: -2px
+}
+
+#lastmsg {
+    height: 13px
+}
+
+#chat {
+    background-image: url(https://i.imgur.com/a9ISFb6.png)
+}
+
+#chat.left {
+    width: 264px;
+    background-color: transparent;
+    background-image: url(https://i.imgur.com/Tkmrimk.png);
+    background-position: -5px -72px;
+    margin-left: 11px;
+    margin-top: -1px;
+    border-left: #202020 1px solid;
+    border-top: #202020 1px solid;
+    border-bottom: #202020 1px solid
+}
+
+#chatscrollbar,
+#talkscroll,
+#myenscrollbar,
+#myfrscrollbar,
+#battleskills_scroll,
+#recoverItemScroll,
+#h_help_scrolled_scroll {
+    width: 6px!important;
+    margin-left: 2px;
+    border: none;
+    z-index: 300;
+    background-color: #202020 !important;
+    background-image: none
+}
+
+#chat.left #chattabs {
+    position: absolute;
+    left: -5px;
+    top: -5px
+}
+
+#chattabs S {
+    background-image: url(https://i.imgur.com/a9ISFb6.png)
+}
+
+#chat.left #chattabs S {
+    background-image: url(https://i.imgur.com/Tkmrimk.png)
+}
+
+#chattxt {
+    font: 11px Arial;
+    color: #e3e3e3
+}
+
+#chat.left #chattxt {
+    position: absolute;
+    top: 20px;
+    left: 3px
+}
+
+#chattxt U {
+    color: #e3e3e3;
+    border-bottom: 1px dashed #e3e3e3
+}
+
+#chattxt .sys_info {
+    color: #424242
+}
+
+#chattxt .entertown {
+    border-bottom: 1px dotted #424242;
+    color: #696969
+}
+
+#chattxt .me {
+    color: #e7d798
+}
+
+#chattxt .dice {
+    color: #e7d798
+}
+
+#chattxt .chnick {
+    color: #fff;
+    cursor: pointer
+}
+
+#chattxt .clant,
+#chattxt DIV.clant SPAN.chnick {
+    color: #ffd700
+}
+
+#chattxt .priv,
+#chattxt DIV.priv SPAN.chnick {
+    color: #ff7f7f
+}
+
+#chattxt .priv2,
+#chattxt DIV.priv2 SPAN.chnick {
+    color: #8effff
+}
+
+#chattxt .team {
+    color: #9C6BEF
+}
+
+#chattxt .fr span {
+    color: #fefe61
+}
+
+B.yourname {
+    color: #cc3131
+}
+
+#chathorror {
+    color: #e3e3e3;
+    background: #132821;
+    display: none
+}
+
+#chathorror H2 {
+    color: #e3e3e3
+}
+
+#chathorror INPUT {
+    border: 1px solid #202020;
+    color: #e3e3e3
+}
+
+#chathorror BUTTON {
+    border: 1px solid #202020
+}
+
+#youtube BUTTON {
+    border: 1px solid #202020;
+    background: #111;
+    color: #e3e3e3
+}
 
 /* SIMPLE WINDOWS */
 
@@ -2007,3 +2162,6 @@ DIV#b_news.notif:hover {
 	color: black
 }
 
+body > div.news-panel > div.news-content > div.news-for-you-section > div.section-content > div > div > div.buy-button-wrapper > div > div.label {
+	background: black
+}
