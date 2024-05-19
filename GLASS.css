@@ -811,10 +811,29 @@ DIV.frparty {
     color: #e3e3e3
 }
 
+.mode6.a2 {
+    background-image: url(https://i.imgur.com/lpevVoy.png)
+    color: #e3e3e3
+}
+
 .mode6.a3 {
     background-image: url(https://i.imgur.com/lpevVoy.png)
     color: #e3e3e3
 }
+
+#alert
+.mode2 {
+    background-image: url(https://i.imgur.com/lpevVoy.png)
+    color: #e3e3e3
+}
+.hmode_null {
+    background-image: url(https://i.imgur.com/lpevVoy.png)
+    color: #e3e3e3
+}
+#alert.mode2.hmode_null.a2{
+    background-image: url(https://i.imgur.com/lpevVoy.png)
+    color: #e3e3e3
+}	
 
 BUTTON.bal_ok,
 BUTTON.bal_cancel,
