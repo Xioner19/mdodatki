@@ -386,7 +386,15 @@ UL.boxhover LI:not(.disabled):hover {
 #lastmsg {
     height: 13px
 }
-
+#chat.left {
+    width: 264px;
+    background-color: transparent;
+    margin-left: 11px;
+    margin-top: -1px;
+    border-left: #202020 1px solid;
+    border-top: #202020 1px solid;
+    border-bottom: #202020 1px solid
+}
 #chat {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
