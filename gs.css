@@ -397,7 +397,7 @@ UL.boxhover LI:not(.disabled):hover {
 
 #chat.left, #chattabs.left, #chat.left #chattabs s {
 	background-color: black; 
-	background-Image: url(https://i.imgur.com/FnsuwDw.png
+	background-Image: url(https://i.imgur.com/FnsuwDw.png)
 }
 
 #chat, #chattabs, #chat #chattabs s {
@@ -450,8 +450,6 @@ UL.boxhover LI:not(.disabled):hover {
     background-color: #202020 !important;
     background-image: none
 }
-
-
 
 #chattxt {
     font: 11px Arial;
