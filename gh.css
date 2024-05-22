@@ -378,7 +378,7 @@ UL.boxhover LI:not(.disabled):hover {
 }
 
 /* CHAT */
-/*
+
 #inpchat {
     font: 12px Arial;
     color: #e3e3e3;
@@ -524,7 +524,7 @@ B.yourname {
     background: #111;
     color: #e3e3e3
 }
-*/
+
 /* SIMPLE WINDOWS */
 
 #config {
