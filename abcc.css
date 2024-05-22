@@ -390,7 +390,7 @@ UL.boxhover LI:not(.disabled):hover {
 #chat {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
-/*
+
 #chat.left {
     width: 264px;
     background-color: transparent;
@@ -442,7 +442,7 @@ UL.boxhover LI:not(.disabled):hover {
     top: 20px;
     left: 3px
 }
-
+/*
 #chattxt U {
     color: #e3e3e3;
     border-bottom: 1px dashed #e3e3e3
