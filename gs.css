@@ -390,18 +390,51 @@ UL.boxhover LI:not(.disabled):hover {
 #chat {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
-
-#chat.left {
-    width: 264px;
-    background-color: transparent;
-    background-image: url(https://i.imgur.com/Tkmrimk.png);
-    background-position: -5px -72px;
-    margin-left: 11px;
-    margin-top: -1px;
-    border-left: #202020 1px solid;
-    border-top: #202020 1px solid;
-    border-bottom: #202020 1px solid
+#chat.left #chattabs {
+	background-color: #333333; 
+	background-Image: url(https://i.imgur.com/Tdbl3gU.png)
 }
+
+#chat.left, #chattabs.left, #chat.left #chattabs s {
+	background-color: black; 
+	background-Image: url(https://i.imgur.com/Tdbl3gU.png)
+}
+
+#chat, #chattabs, #chat #chattabs s {
+	background-Image: url(https://i.imgur.com/a9ISFb6.png)
+}
+
+#bottxt {
+	left: 66px; 
+	top: 10px
+}	
+
+#lastmsg {
+	width: 256px
+}
+
+#bchat{
+	left: 1px
+}
+
+#chat.left{
+	width: 269px
+}
+
+#chattxt{
+	position: absolute; 
+	top: 10px; 
+	bottom: 2px
+}
+
+#chattxt::-webkit-scrollbar-thumb{
+	background: #171717; 
+	border: 1px solid #747474
+}
+#chattabs .chat-channel-card.active{box-shadow: inset 0 0 0 1px #747474}
+#chattabs .chat-channel-card:hover{box-shadow: inset 0 0 0 1px #ec9e24b5}
+
+#chattabs{top: 0 !important}#chattabs .chat-channel-card{margin-top: 1px}#chat.left #chattabs{background-position: -5px -540px}
 
 #chatscrollbar,
 #talkscroll,
@@ -418,37 +451,13 @@ UL.boxhover LI:not(.disabled):hover {
     background-image: none
 }
 
-#chat.left #chattabs {
-    position: absolute;
-    left: -5px;
-    top: -5px
-}
 
-#chattabs S {
-    background-image: url(https://i.imgur.com/a9ISFb6.png)
-}
-
-#chat.left #chattabs S {
-    background-image: url(https://i.imgur.com/Tdbl3gU.png)
-}
 
 #chattxt {
     font: 11px Arial;
     color: #e3e3e3
 }
-/*
-#chat.left #chattxt {
-    position: absolute;
-    top: 20px;
-    left: 3px
-}
-*/
-/*
-#chattxt U {
-    color: #e3e3e3;
-    border-bottom: 1px dashed #e3e3e3
-}
-*/
+
 #chattxt .sys_info {
     color: #424242
 }
