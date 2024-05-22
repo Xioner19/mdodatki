@@ -417,13 +417,13 @@ UL.boxhover LI:not(.disabled):hover {
     background-color: #202020 !important;
     background-image: none
 }
-
+/*
 #chat.left #chattabs {
     position: absolute;
     left: -5px;
     top: -5px
 }
-
+*/
 #chattabs S {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
@@ -436,13 +436,13 @@ UL.boxhover LI:not(.disabled):hover {
     font: 11px Arial;
     color: #e3e3e3
 }
-
+/*
 #chat.left #chattxt {
     position: absolute;
     top: 20px;
     left: 3px
 }
-/*
+
 #chattxt U {
     color: #e3e3e3;
     border-bottom: 1px dashed #e3e3e3
