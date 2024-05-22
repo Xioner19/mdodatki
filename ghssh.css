@@ -92,9 +92,7 @@ A {
     font-family: FontAwesome!important
 }
 
-#kogo_obchodzi_nazwa_diva {
-	left: 70px !important
-}
+
 
 /* pseudo elementy */
 
@@ -393,7 +391,7 @@ UL.boxhover LI:not(.disabled):hover {
 #chat {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
-
+/*
 #chat.left {
     width: 264px;
     background-color: transparent;
@@ -405,7 +403,7 @@ UL.boxhover LI:not(.disabled):hover {
     border-top: #202020 1px solid;
     border-bottom: #202020 1px solid
 }
-
+*/
 #chatscrollbar,
 #talkscroll,
 #myenscrollbar,
