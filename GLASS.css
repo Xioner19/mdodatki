@@ -10,7 +10,7 @@
 A {
     color: #696969
 }
-
+/*
 .gfont {
     color: #e3e3e3;
     text-shadow: none
@@ -29,7 +29,7 @@ A {
 .gfont:hover {
     color: #424242
 }
-
+*/
 /* POPRAWKI */
 
 #ni-promo {
@@ -2121,7 +2121,7 @@ div.paperBox .bottom {
 	color: #e3e3e3;
 }
 
-.MM-tab-button.MM-tab-button-menu.active .content .gfont {
+.MM-tab-button.MM-tab-button-menu.active .content  {
 	text-shadow: 0px 1px 7px #e3e3e3;
 }
 
@@ -2194,10 +2194,11 @@ DIV#b_news.notif:hover {
 	background: url(https://i.imgur.com/hxgIvJ2.png)
 }
 
-#clanbox .clan-recruit-content .clan-recruit-menu .cards-header-wrapper .cards-header {
-	color: black
-}
+/*#clanbox .clan-recruit-content .clan-recruit-menu .cards-header-wrapper .cards-header {
+//	color: black
+//}
 
-body > div.news-panel > div.news-content > div.news-for-you-section > div.section-content > div > div > div.buy-button-wrapper > div > div.label {
-	background: black
-}
+//body > div.news-panel > div.news-content > div.news-for-you-section > div.section-content > div > div > div.buy-button-wrapper > div > div.label {
+//	background: black
+//}
+*/
