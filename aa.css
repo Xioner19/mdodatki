@@ -424,7 +424,7 @@ UL.boxhover LI:not(.disabled):hover {
     left: -5px;
     top: -5px
 }
-*/
+
 #chattabs S {
     background-image: url(https://i.imgur.com/a9ISFb6.png)
 }
@@ -448,7 +448,7 @@ UL.boxhover LI:not(.disabled):hover {
     color: #e3e3e3;
     border-bottom: 1px dashed #e3e3e3
 }
-
+*/
 #chattxt .sys_info {
     color: #424242
 }
