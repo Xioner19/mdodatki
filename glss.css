@@ -389,7 +389,7 @@ UL.boxhover LI:not(.disabled):hover {
 #chat.left {
     width: 264px;
     background-color: transparent;
-    margin-left: 11px;
+    margin-left: 6.5px;
     margin-top: -1px;
     border-left: #202020 1px solid;
     border-top: #202020 1px solid;
@@ -422,7 +422,7 @@ UL.boxhover LI:not(.disabled):hover {
 }
 
 #bchat{
-	left: 1px
+	left: 17px
 }
 
 #chat.left{
